@@ -1,0 +1,12 @@
+
+.skill-items{
+    padding: var(--mb-0-5);
+}
+
+.skills__header{
+    color: black;
+    font-size: var(--big-font-size);
+    font-weight: var(--font-semi-bold);
+    cursor: pointer;
+    padding: 3rem;
+}
