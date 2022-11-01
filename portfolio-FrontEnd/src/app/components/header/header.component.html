@@ -22,11 +22,10 @@
           </ul>
           <div class="header__buttons">
             <form class="button button--flex">
-              <button class="btn" type="submit">Ingreso</button>
+              <button class="btn" (click)="login()" type="submit" *ngIf="!isLogged">Ingreso</button>
+              <button class="btn" (click)="onLogOut()" type="submit" *ngIf="isLogged">Salir</button>
             </form>
           </div>  
-          
         </div> 
     </div>
-
 </nav>
